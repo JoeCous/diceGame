@@ -1,0 +1,72 @@
+body {
+    background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: "Helvetica"
+}
+#dice {
+    background-color: lightgray;
+    width: 300px;
+    height: 300px; 
+    border: 3px solid white; 
+    text-align: center;  
+
+}
+#dice2 {
+    background-color: orange;
+    width: 300px;
+    height: 300px; 
+    border: 3px solid white; 
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: center;
+    justify-content: center;
+    position: relative;
+}
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color: black; 
+}
+button {
+    position: absolute;
+    bottom: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+#hold {
+    position: absolute;
+    bottom: 60px;
+}
+
+#dicepic {
+    position: absolute; 
+    top: 75px;
+
+}
+#newGame {
+    background-color: red; 
+    position: absolute;
+    bottom: 250px; 
+}
+
+p {
+    text-align: center;
+}
+#dicepic2, .roll2 {
+    visibility: hidden;
+}
+#score, #score2 {
+    margin-top: 0;
+    font-size: 50px; 
+}
+#playerone, #playertwo {
+    font-size: 30px; 
+}
+#p1current, #p2current {
+    color: black;
+}
